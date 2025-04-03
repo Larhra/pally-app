@@ -8,6 +8,5 @@ export default defineConfig({
     port: 3000, // Try a different port
     host: true, // Listen on all addresses
     open: true // Open browser automatically
-    base: process.env.VITE_BASE_PATH "/pally-app"
   }
 })
