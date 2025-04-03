@@ -1,0 +1,42 @@
+/* Base styles for mobile first approach */
+.dashboard-content,
+.withdrawal-content,
+.timelock-container {
+  padding: 16px;
+  width: 100%;
+}
+
+.transfer-card,
+.withdrawal-card {
+  width: 100%;
+}
+
+/* Small tablets and large phones */
+@media (min-width: 480px) {
+  .dashboard-content,
+  .withdrawal-content {
+    padding: 20px;
+  }
+}
+
+/* Tablets and small laptops */
+@media (min-width: 768px) {
+  .dashboard-content,
+  .withdrawal-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .transfer-card,
+  .withdrawal-card {
+    border-radius: 20px;
+  }
+}
+
+/* Larger devices */
+@media (min-width: 1024px) {
+  .dashboard-content,
+  .withdrawal-content {
+    max-width: 800px;
+  }
+}

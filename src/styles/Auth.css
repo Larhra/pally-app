@@ -1,0 +1,130 @@
+/* src/styles/Auth.css */
+.auth-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+  }
+  
+  .auth-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .back-button {
+    position: absolute;
+    left: 20px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .auth-header h1 {
+    flex: 1;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .auth-form-container {
+    flex: 1;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .auth-error {
+    background-color: #ffebee;
+    color: #c62828;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  .auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .form-group label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+  }
+  
+  .form-group input {
+    padding: 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  .form-group input:focus {
+    outline: none;
+    border-color: #ff0066;
+  }
+  
+  .forgot-password {
+    text-align: right;
+  }
+  
+  .forgot-password a {
+    color: #666;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  .forgot-password a:hover {
+    color: #ff0066;
+    text-decoration: underline;
+  }
+  
+  .auth-alternate {
+    margin-top: 24px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .auth-alternate a {
+    color: #ff0066;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .auth-alternate a:hover {
+    text-decoration: underline;
+  }
+  
+  .terms-agreement {
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+  }
+  
+  .terms-agreement a {
+    color: #ff0066;
+    text-decoration: none;
+  }
+  
+  .terms-agreement a:hover {
+    text-decoration: underline;
+  }
+  
+  .auth-footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+  }

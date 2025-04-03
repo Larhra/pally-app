@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.button.primary {
+  background-color: #ff0066;
+  color: white;
+}
+
+.button.primary:hover:not(:disabled) {
+  background-color: #e5005c;
+}
+
+.button.secondary {
+  background-color: transparent;
+  color: #ff0066;
+  border: 1px solid #ff0066;
+}
+
+.button.secondary:hover {
+  background-color: rgba(255, 0, 102, 0.05);
+}
+
+.full-width {
+  width: 100%;
+}
