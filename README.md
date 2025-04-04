@@ -2,7 +2,7 @@
 
 ![PALLY Logo](public/pally-logo.jpeg)
 
-PALLY is a modern, user-friendly mobile payment application that allows users to send and receive money instantly with zero fees. Built with React and Vite, PALLY provides a seamless experience for managing transactions, scheduling payments, and tracking financial activities.
+PALLY is a modern, user-friendly mobile payment application that allows users to send and receive money/token instantly with zero fees. Built with React and Vite, PALLY provides a seamless experience for managing transactions, scheduling payments, and tracking financial activities.
 
 ## 🚀 Features
 
